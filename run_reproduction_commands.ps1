@@ -1,82 +1,15 @@
-# Reproducibility Package
+# Run from reproducibility_package/
 
-This folder contains the minimal code, data, and artifacts needed to reproduce the key experiments from this project.
-
-## Included Contents
-
-- `code/`
-  - `benchmark_attackseqbench_openai.py`
-  - `run_autogen_cyber_eval.py`
-  - `run_autoprune_cyber_eval.py`
-  - `run_gmemory_cyber_eval.py`
-  - `run_cybermetric_autogen_agentprune_eval.py`
-- `data/`
-  - `AttackSeqBench/dataset/AttackSeq-Tactic.csv`
-  - `AttackSeqBench/mitre_kb/mitre.json`
-  - `CyberMetric/CyberMetric-500-v1.json`
-- `artifacts/`
-  - summary JSON files used in the report
-- `reports/`
-  - `MITRE_LLM_Project_Progress_Report.md`
-
-## Environment Setup
-
-1. Create and activate a virtual environment.
-2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Create a `.env` file in this folder from `.env.example` and set `OPENAI_API_KEY`.
-
-## Reproduction Commands
-
-Run from `reproducibility_package/`.
-
-### 1) AttackSeq single LLM baseline (100 questions)
-
-```bash
 python code/benchmark_attackseqbench_openai.py --dataset-dir data/AttackSeqBench/dataset --tasks AttackSeq-Tactic --max-questions-per-task 100 --model gpt-4o-mini --request-max-tokens 128 --temperature 0.0
-```
 
-### 2) AttackSeq with MITRE retrieval (100 questions)
-
-```bash
 python code/benchmark_attackseqbench_openai.py --dataset-dir data/AttackSeqBench/dataset --tasks AttackSeq-Tactic --max-questions-per-task 100 --model gpt-4o-mini --enable-mitre-kb --mitre-kb-path data/AttackSeqBench/mitre_kb/mitre.json --mitre-top-k 3 --mitre-max-chars 900 --request-max-tokens 128 --temperature 0.0
-```
 
-### 3) AttackSeq hybrid cascade (100 questions)
-
-```bash
 python code/benchmark_attackseqbench_openai.py --dataset-dir data/AttackSeqBench/dataset --tasks AttackSeq-Tactic --max-questions-per-task 100 --model gpt-4o-mini --enable-cascade --cascade-model gpt-4o --cascade-max-escalation-rate 0.25 --cascade-self-consistency-votes 3 --cascade-self-consistency-temperature 0.2 --cascade-min-confidence 90 --cascade-min-margin 20 --cascade-hard-confidence 80 --cascade-hard-margin 10 --cascade-min-vote-share 1.0 --cascade-confusion-threshold 0.35 --cascade-enable-verifier --request-max-tokens 128 --temperature 0.0
-```
 
-### 4) AttackSeq hybrid cascade + MITRE retrieval (100 questions)
-
-```bash
 python code/benchmark_attackseqbench_openai.py --dataset-dir data/AttackSeqBench/dataset --tasks AttackSeq-Tactic --max-questions-per-task 100 --model gpt-4o-mini --enable-mitre-kb --mitre-kb-path data/AttackSeqBench/mitre_kb/mitre.json --mitre-top-k 3 --mitre-max-chars 900 --enable-cascade --cascade-model gpt-4o --cascade-max-escalation-rate 0.25 --cascade-self-consistency-votes 3 --cascade-self-consistency-temperature 0.2 --cascade-min-confidence 90 --cascade-min-margin 20 --cascade-hard-confidence 80 --cascade-hard-margin 10 --cascade-min-vote-share 1.0 --cascade-confusion-threshold 0.35 --cascade-enable-verifier --request-max-tokens 128 --temperature 0.0
-```
 
-### 5) AutoGen and AutoPrune experiments (AttackSeq)
-
-```bash
 python code/run_autogen_cyber_eval.py --dataset-csv data/AttackSeqBench/dataset/AttackSeq-Tactic.csv --max-questions 500 --model gpt-4o-mini --mode both
 python code/run_autoprune_cyber_eval.py --dataset-csv data/AttackSeqBench/dataset/AttackSeq-Tactic.csv --max-questions 100 --model gpt-4o-mini --mode all
 python code/run_gmemory_cyber_eval.py --dataset-csv data/AttackSeqBench/dataset/AttackSeq-Tactic.csv --max-questions 100 --model gpt-4o-mini --mode all
-```
 
-### 6) CyberMetric tri-mode (500 questions)
-
-```bash
 python code/run_cybermetric_autogen_agentprune_eval.py --dataset-json data/CyberMetric/CyberMetric-500-v1.json --mode all --max-questions 500 --model gpt-4o-mini
-```
-
-## Output Files
-
-Each script writes timestamped JSONL and JSON summary outputs into its default output directory.
-
-## Notes
-
-- This package intentionally includes only minimal data needed to reproduce the reported runs.
-- If costs change, you can override token pricing via script CLI flags.
