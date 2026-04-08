@@ -1,0 +1,45 @@
+{
+  "model": "gpt-4o-mini",
+  "dataset_csv": "D:\\nus\\year4\\semester2\\FYP\\product\\analysis_runs\\diverse_200\\AttackSeq-Procedure-No.csv",
+  "mode": "autogen",
+  "max_questions": 200,
+  "autogen_rounds": 8,
+  "runtime_seconds": 2431.851,
+  "baseline": {
+    "total_answered": 0,
+    "correct": 0,
+    "accuracy": null,
+    "errors": 0,
+    "runtime_seconds": 0.0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "estimated_cost_usd": 0.0,
+    "avg_latency_sec": 0.0
+  },
+  "autogen": {
+    "total_answered": 200,
+    "correct": 96,
+    "accuracy": 0.48,
+    "errors": 0,
+    "runtime_seconds": 2431.793,
+    "prompt_tokens": 1542706,
+    "completion_tokens": 64623,
+    "total_tokens": 1607329,
+    "estimated_cost_usd": 0.27017969999999997,
+    "avg_latency_sec": 12.158961999999999,
+    "avg_num_messages": 4.735
+  },
+  "pricing": {
+    "source": "builtin:gpt-4o-mini",
+    "input_cost_per_1m": 0.15,
+    "output_cost_per_1m": 0.6
+  },
+  "delta": {
+    "accuracy_points": null
+  },
+  "artifacts": {
+    "results_jsonl": "D:\\nus\\year4\\semester2\\FYP\\product\\analysis_runs\\proc_no_across_models\\autogen\\results_gpt-4o-mini_20260407T215106Z.jsonl",
+    "summary_json": "D:\\nus\\year4\\semester2\\FYP\\product\\analysis_runs\\proc_no_across_models\\autogen\\summary_gpt-4o-mini_20260407T215106Z.json"
+  }
+}

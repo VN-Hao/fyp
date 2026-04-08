@@ -1,0 +1,200 @@
+{"question_id": "799", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Execution"}
+{"question_id": "2091", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Execution"}
+{"question_id": "354", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Defense Evasion"}
+{"question_id": "192", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Persistence"}
+{"question_id": "1247", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Defense Evasion"}
+{"question_id": "412", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Execution"}
+{"question_id": "1527", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Execution"}
+{"question_id": "1135", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Execution"}
+{"question_id": "1188", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Collection"}
+{"question_id": "1365", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Execution"}
+{"question_id": "775", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Execution"}
+{"question_id": "925", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "wrong", "autoprune_choice": "C", "autoprune_answer": "Defense Evasion"}
+{"question_id": "1444", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Initial Access"}
+{"question_id": "81", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Persistence"}
+{"question_id": "976", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "410", "task_name": "AttackSeq-Tactic", "ground_truth": "Credential Access", "autoprune_status": "wrong", "autoprune_choice": "A", "autoprune_answer": "Defense Evasion"}
+{"question_id": "1471", "task_name": "AttackSeq-Tactic", "ground_truth": "Collection", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Collection"}
+{"question_id": "453", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Command and Control"}
+{"question_id": "1570", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Command and Control"}
+{"question_id": "596", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "wrong", "autoprune_choice": "D", "autoprune_answer": "Privilege Escalation"}
+{"question_id": "120", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Persistence"}
+{"question_id": "1199", "task_name": "AttackSeq-Tactic", "ground_truth": "Credential Access", "autoprune_status": "wrong", "autoprune_choice": "C", "autoprune_answer": "Initial Access"}
+{"question_id": "960", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "wrong", "autoprune_choice": "D", "autoprune_answer": "Execution"}
+{"question_id": "1249", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Initial Access"}
+{"question_id": "159", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Execution"}
+{"question_id": "1311", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Execution"}
+{"question_id": "1277", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Persistence"}
+{"question_id": "1172", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Command and Control"}
+{"question_id": "1487", "task_name": "AttackSeq-Tactic", "ground_truth": "Reconnaissance", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Reconnaissance"}
+{"question_id": "612", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "wrong", "autoprune_choice": "D", "autoprune_answer": "Execution"}
+{"question_id": "620", "task_name": "AttackSeq-Tactic", "ground_truth": "Privilege Escalation", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Execution"}
+{"question_id": "491", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Command and Control"}
+{"question_id": "2077", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Collection"}
+{"question_id": "1634", "task_name": "AttackSeq-Tactic", "ground_truth": "Credential Access", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Credential Access"}
+{"question_id": "40", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Defense Evasion"}
+{"question_id": "1080", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Defense Evasion"}
+{"question_id": "5", "task_name": "AttackSeq-Tactic", "ground_truth": "Discovery", "autoprune_status": "wrong", "autoprune_choice": "C", "autoprune_answer": "Persistence"}
+{"question_id": "406", "task_name": "AttackSeq-Tactic", "ground_truth": "Collection", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Collection"}
+{"question_id": "1928", "task_name": "AttackSeq-Tactic", "ground_truth": "Discovery", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Discovery"}
+{"question_id": "639", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Persistence"}
+{"question_id": "475", "task_name": "AttackSeq-Tactic", "ground_truth": "Collection", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Collection"}
+{"question_id": "1395", "task_name": "AttackSeq-Tactic", "ground_truth": "Exfiltration", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Exfiltration"}
+{"question_id": "515", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Execution"}
+{"question_id": "350", "task_name": "AttackSeq-Tactic", "ground_truth": "Collection", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Collection"}
+{"question_id": "1516", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Persistence"}
+{"question_id": "564", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Defense Evasion"}
+{"question_id": "1609", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Persistence"}
+{"question_id": "2016", "task_name": "AttackSeq-Tactic", "ground_truth": "Collection", "autoprune_status": "wrong", "autoprune_choice": "D", "autoprune_answer": "Persistence"}
+{"question_id": "849", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Persistence"}
+{"question_id": "1175", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Reconnaissance"}
+{"question_id": "1011", "task_name": "AttackSeq-Tactic", "ground_truth": "Lateral Movement", "autoprune_status": "wrong", "autoprune_choice": "C", "autoprune_answer": "Exfiltration"}
+{"question_id": "1647", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "wrong", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "1872", "task_name": "AttackSeq-Tactic", "ground_truth": "Discovery", "autoprune_status": "wrong", "autoprune_choice": "D", "autoprune_answer": "Collection"}
+{"question_id": "2109", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "wrong", "autoprune_choice": "A", "autoprune_answer": "Collection"}
+{"question_id": "210", "task_name": "AttackSeq-Tactic", "ground_truth": "Reconnaissance", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Reconnaissance"}
+{"question_id": "1920", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Initial Access"}
+{"question_id": "1316", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "196", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Execution"}
+{"question_id": "1494", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Execution"}
+{"question_id": "1384", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "wrong", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "645", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "593", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Initial Access"}
+{"question_id": "387", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "wrong", "autoprune_choice": "A", "autoprune_answer": "Resource Development"}
+{"question_id": "1380", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Initial Access"}
+{"question_id": "48", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "1855", "task_name": "AttackSeq-Tactic", "ground_truth": "Reconnaissance", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Reconnaissance"}
+{"question_id": "175", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Defense Evasion"}
+{"question_id": "398", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Initial Access"}
+{"question_id": "1096", "task_name": "AttackSeq-Tactic", "ground_truth": "Reconnaissance", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Reconnaissance"}
+{"question_id": "2146", "task_name": "AttackSeq-Tactic", "ground_truth": "Reconnaissance", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Reconnaissance"}
+{"question_id": "951", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "wrong", "autoprune_choice": "A", "autoprune_answer": "Command and Control"}
+{"question_id": "2131", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Execution"}
+{"question_id": "1003", "task_name": "AttackSeq-Tactic", "ground_truth": "Reconnaissance", "autoprune_status": "wrong", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "340", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Execution"}
+{"question_id": "902", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "2113", "task_name": "AttackSeq-Tactic", "ground_truth": "Exfiltration", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Exfiltration"}
+{"question_id": "1986", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Defense Evasion"}
+{"question_id": "2079", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Persistence"}
+{"question_id": "806", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "1019", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "1843", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "wrong", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "1351", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Defense Evasion"}
+{"question_id": "732", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Privilege Escalation"}
+{"question_id": "2099", "task_name": "AttackSeq-Tactic", "ground_truth": "Privilege Escalation", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Privilege Escalation"}
+{"question_id": "35", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Initial Access"}
+{"question_id": "1851", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Initial Access"}
+{"question_id": "530", "task_name": "AttackSeq-Tactic", "ground_truth": "Reconnaissance", "autoprune_status": "wrong", "autoprune_choice": "A", "autoprune_answer": "Initial Access"}
+{"question_id": "28", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Defense Evasion"}
+{"question_id": "1864", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Defense Evasion"}
+{"question_id": "758", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Execution"}
+{"question_id": "1997", "task_name": "AttackSeq-Tactic", "ground_truth": "Collection", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Collection"}
+{"question_id": "1614", "task_name": "AttackSeq-Tactic", "ground_truth": "Reconnaissance", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Reconnaissance"}
+{"question_id": "770", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Defense Evasion"}
+{"question_id": "1072", "task_name": "AttackSeq-Tactic", "ground_truth": "Privilege Escalation", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Privilege Escalation"}
+{"question_id": "1406", "task_name": "AttackSeq-Tactic", "ground_truth": "Collection", "autoprune_status": "wrong", "autoprune_choice": "C", "autoprune_answer": "Persistence"}
+{"question_id": "1531", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "1668", "task_name": "AttackSeq-Tactic", "ground_truth": "Collection", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Collection"}
+{"question_id": "1214", "task_name": "AttackSeq-Tactic", "ground_truth": "Discovery", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Discovery"}
+{"question_id": "940", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "wrong", "autoprune_choice": "C", "autoprune_answer": "Execution"}
+{"question_id": "1673", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Initial Access"}
+{"question_id": "1327", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Initial Access"}
+{"question_id": "1953", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Defense Evasion"}
+{"question_id": "926", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Initial Access"}
+{"question_id": "1545", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "wrong", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "276", "task_name": "AttackSeq-Tactic", "ground_truth": "Discovery", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Discovery"}
+{"question_id": "547", "task_name": "AttackSeq-Tactic", "ground_truth": "Reconnaissance", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Reconnaissance"}
+{"question_id": "1914", "task_name": "AttackSeq-Tactic", "ground_truth": "Discovery", "autoprune_status": "wrong", "autoprune_choice": "C", "autoprune_answer": "Collection"}
+{"question_id": "58", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Initial Access"}
+{"question_id": "721", "task_name": "AttackSeq-Tactic", "ground_truth": "Impact", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Impact"}
+{"question_id": "171", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Defense Evasion"}
+{"question_id": "385", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Command and Control"}
+{"question_id": "2026", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "wrong", "autoprune_choice": "C", "autoprune_answer": "Execution"}
+{"question_id": "583", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Initial Access"}
+{"question_id": "1543", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "wrong", "autoprune_choice": "A", "autoprune_answer": "Defense Evasion"}
+{"question_id": "13", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Initial Access"}
+{"question_id": "283", "task_name": "AttackSeq-Tactic", "ground_truth": "Reconnaissance", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Reconnaissance"}
+{"question_id": "570", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Persistence"}
+{"question_id": "498", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Initial Access"}
+{"question_id": "1437", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Command and Control"}
+{"question_id": "967", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Command and Control"}
+{"question_id": "2158", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "wrong", "autoprune_choice": "A", "autoprune_answer": "Defense Evasion"}
+{"question_id": "1354", "task_name": "AttackSeq-Tactic", "ground_truth": "Credential Access", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Credential Access"}
+{"question_id": "659", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Defense Evasion"}
+{"question_id": "1602", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Command and Control"}
+{"question_id": "1884", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Command and Control"}
+{"question_id": "1306", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Defense Evasion"}
+{"question_id": "665", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Command and Control"}
+{"question_id": "1697", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Initial Access"}
+{"question_id": "1734", "task_name": "AttackSeq-Tactic", "ground_truth": "Collection", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Collection"}
+{"question_id": "307", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "wrong", "autoprune_choice": "D", "autoprune_answer": "Lateral Movement"}
+{"question_id": "2022", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Command and Control"}
+{"question_id": "1059", "task_name": "AttackSeq-Tactic", "ground_truth": "Exfiltration", "autoprune_status": "wrong", "autoprune_choice": "A", "autoprune_answer": "Collection"}
+{"question_id": "1506", "task_name": "AttackSeq-Tactic", "ground_truth": "Credential Access", "autoprune_status": "wrong", "autoprune_choice": "A", "autoprune_answer": "Defense Evasion"}
+{"question_id": "144", "task_name": "AttackSeq-Tactic", "ground_truth": "Exfiltration", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Exfiltration"}
+{"question_id": "1423", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "2114", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "777", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Initial Access"}
+{"question_id": "1206", "task_name": "AttackSeq-Tactic", "ground_truth": "Discovery", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Discovery"}
+{"question_id": "1729", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Command and Control"}
+{"question_id": "1827", "task_name": "AttackSeq-Tactic", "ground_truth": "Impact", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Impact"}
+{"question_id": "865", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Persistence"}
+{"question_id": "1809", "task_name": "AttackSeq-Tactic", "ground_truth": "Collection", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Collection"}
+{"question_id": "1965", "task_name": "AttackSeq-Tactic", "ground_truth": "Impact", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Impact"}
+{"question_id": "1479", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Initial Access"}
+{"question_id": "1294", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "wrong", "autoprune_choice": "C", "autoprune_answer": "Execution"}
+{"question_id": "331", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Defense Evasion"}
+{"question_id": "935", "task_name": "AttackSeq-Tactic", "ground_truth": "Credential Access", "autoprune_status": "wrong", "autoprune_choice": "C", "autoprune_answer": "Collection"}
+{"question_id": "1787", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Defense Evasion"}
+{"question_id": "1150", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "wrong", "autoprune_choice": "C", "autoprune_answer": "Persistence"}
+{"question_id": "791", "task_name": "AttackSeq-Tactic", "ground_truth": "Lateral Movement", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Lateral Movement"}
+{"question_id": "1255", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Initial Access"}
+{"question_id": "920", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Command and Control"}
+{"question_id": "851", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Initial Access"}
+{"question_id": "1041", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Command and Control"}
+{"question_id": "718", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Command and Control"}
+{"question_id": "1453", "task_name": "AttackSeq-Tactic", "ground_truth": "Exfiltration", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Exfiltration"}
+{"question_id": "1655", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Execution"}
+{"question_id": "973", "task_name": "AttackSeq-Tactic", "ground_truth": "Collection", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Discovery"}
+{"question_id": "1344", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Persistence"}
+{"question_id": "316", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Defense Evasion"}
+{"question_id": "1369", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "wrong", "autoprune_choice": "A", "autoprune_answer": "Persistence"}
+{"question_id": "1756", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Command and Control"}
+{"question_id": "524", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "1712", "task_name": "AttackSeq-Tactic", "ground_truth": "Resource Development", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Resource Development"}
+{"question_id": "2155", "task_name": "AttackSeq-Tactic", "ground_truth": "Impact", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Impact"}
+{"question_id": "1313", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Defense Evasion"}
+{"question_id": "1405", "task_name": "AttackSeq-Tactic", "ground_truth": "Credential Access", "autoprune_status": "wrong", "autoprune_choice": "D", "autoprune_answer": "Execution"}
+{"question_id": "1363", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Initial Access"}
+{"question_id": "757", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "1528", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Defense Evasion"}
+{"question_id": "416", "task_name": "AttackSeq-Tactic", "ground_truth": "Lateral Movement", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Lateral Movement"}
+{"question_id": "119", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Execution"}
+{"question_id": "1298", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Defense Evasion"}
+{"question_id": "1865", "task_name": "AttackSeq-Tactic", "ground_truth": "Discovery", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Discovery"}
+{"question_id": "623", "task_name": "AttackSeq-Tactic", "ground_truth": "Discovery", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Discovery"}
+{"question_id": "535", "task_name": "AttackSeq-Tactic", "ground_truth": "Discovery", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Discovery"}
+{"question_id": "1618", "task_name": "AttackSeq-Tactic", "ground_truth": "Privilege Escalation", "autoprune_status": "wrong", "autoprune_choice": "C", "autoprune_answer": "Persistence"}
+{"question_id": "1312", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Persistence"}
+{"question_id": "1270", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Defense Evasion"}
+{"question_id": "6", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Command and Control"}
+{"question_id": "516", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Persistence"}
+{"question_id": "1197", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Initial Access"}
+{"question_id": "1291", "task_name": "AttackSeq-Tactic", "ground_truth": "Exfiltration", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Exfiltration"}
+{"question_id": "102", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Defense Evasion"}
+{"question_id": "324", "task_name": "AttackSeq-Tactic", "ground_truth": "Collection", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Collection"}
+{"question_id": "1189", "task_name": "AttackSeq-Tactic", "ground_truth": "Discovery", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Discovery"}
+{"question_id": "1386", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Command and Control"}
+{"question_id": "328", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Initial Access"}
+{"question_id": "495", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Reconnaissance"}
+{"question_id": "648", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "wrong", "autoprune_choice": "D", "autoprune_answer": "Defense Evasion"}
+{"question_id": "1770", "task_name": "AttackSeq-Tactic", "ground_truth": "Credential Access", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Privilege Escalation"}
+{"question_id": "1382", "task_name": "AttackSeq-Tactic", "ground_truth": "Discovery", "autoprune_status": "correct", "autoprune_choice": "B", "autoprune_answer": "Discovery"}
+{"question_id": "218", "task_name": "AttackSeq-Tactic", "ground_truth": "Command and Control", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Command and Control"}
+{"question_id": "1465", "task_name": "AttackSeq-Tactic", "ground_truth": "Discovery", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Discovery"}
+{"question_id": "470", "task_name": "AttackSeq-Tactic", "ground_truth": "Initial Access", "autoprune_status": "correct", "autoprune_choice": "D", "autoprune_answer": "Initial Access"}
+{"question_id": "714", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Execution"}
+{"question_id": "820", "task_name": "AttackSeq-Tactic", "ground_truth": "Persistence", "autoprune_status": "correct", "autoprune_choice": "C", "autoprune_answer": "Persistence"}
+{"question_id": "1716", "task_name": "AttackSeq-Tactic", "ground_truth": "Privilege Escalation", "autoprune_status": "wrong", "autoprune_choice": "D", "autoprune_answer": "Persistence"}
+{"question_id": "571", "task_name": "AttackSeq-Tactic", "ground_truth": "Defense Evasion", "autoprune_status": "wrong", "autoprune_choice": "B", "autoprune_answer": "Execution"}
+{"question_id": "1956", "task_name": "AttackSeq-Tactic", "ground_truth": "Execution", "autoprune_status": "correct", "autoprune_choice": "A", "autoprune_answer": "Execution"}

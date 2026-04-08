@@ -1,0 +1,957 @@
+{
+  "AttackSeq-Procedure-No": {
+    "n": 200,
+    "ctx_tertiles": {
+      "t1": 304,
+      "t2": 408
+    },
+    "competitors": {
+      "baseline": {
+        "label": "Single LLM",
+        "file": "analysis_runs\\proc_no_across_models\\baseline\\predictions_gpt-4o-mini_20260407T204727Z.jsonl",
+        "n": 200,
+        "accuracy": 0.54,
+        "temporal": {
+          "before+after": 0.5454545454545454,
+          "after": 0.4864864864864865,
+          "before": 0.6122448979591837
+        },
+        "ctx_bucket": {
+          "short": 0.582089552238806,
+          "medium": 0.582089552238806,
+          "long": 0.45454545454545453
+        },
+        "modal": {
+          "modal": 0.5263157894736842,
+          "non-modal": 0.8
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "confusion_matrix": {
+          "tp": 0,
+          "fp": 92,
+          "tn": 108,
+          "fn": 0
+        }
+      },
+      "rag": {
+        "label": "+ ATT&CK retrieval",
+        "file": "analysis_runs\\proc_no_across_models\\rag\\predictions_gpt-4o-mini_20260407T205050Z.jsonl",
+        "n": 200,
+        "accuracy": 0.575,
+        "temporal": {
+          "before+after": 0.6233766233766234,
+          "after": 0.5,
+          "before": 0.6122448979591837
+        },
+        "ctx_bucket": {
+          "short": 0.6119402985074627,
+          "medium": 0.6119402985074627,
+          "long": 0.5
+        },
+        "modal": {
+          "modal": 0.5631578947368421,
+          "non-modal": 0.8
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "confusion_matrix": {
+          "tp": 0,
+          "fp": 85,
+          "tn": 115,
+          "fn": 0
+        }
+      },
+      "hybrid": {
+        "label": "Hybrid escalation",
+        "file": "analysis_runs\\proc_no_across_models\\hybrid\\predictions_gpt-4o-mini_20260407T210413Z.jsonl",
+        "n": 200,
+        "accuracy": 0.565,
+        "temporal": {
+          "before+after": 0.6103896103896104,
+          "after": 0.4864864864864865,
+          "before": 0.6122448979591837
+        },
+        "ctx_bucket": {
+          "short": 0.6268656716417911,
+          "medium": 0.5970149253731343,
+          "long": 0.4696969696969697
+        },
+        "modal": {
+          "modal": 0.5526315789473685,
+          "non-modal": 0.8
+        },
+        "escalated": 17,
+        "escalated_accuracy": 0.9411764705882353,
+        "confusion_matrix": {
+          "tp": 0,
+          "fp": 87,
+          "tn": 113,
+          "fn": 0
+        }
+      },
+      "hybrid_rag": {
+        "label": "Hybrid + retrieval",
+        "file": "analysis_runs\\proc_no_across_models\\hybrid_rag\\predictions_gpt-4o-mini_20260407T211931Z.jsonl",
+        "n": 200,
+        "accuracy": 0.58,
+        "temporal": {
+          "before+after": 0.6363636363636364,
+          "after": 0.5,
+          "before": 0.6122448979591837
+        },
+        "ctx_bucket": {
+          "short": 0.6268656716417911,
+          "medium": 0.6119402985074627,
+          "long": 0.5
+        },
+        "modal": {
+          "modal": 0.5684210526315789,
+          "non-modal": 0.8
+        },
+        "escalated": 21,
+        "escalated_accuracy": 0.8095238095238095,
+        "confusion_matrix": {
+          "tp": 0,
+          "fp": 84,
+          "tn": 116,
+          "fn": 0
+        }
+      },
+      "autogen": {
+        "label": "AutoGen (MAS)",
+        "file": "analysis_runs\\proc_no_across_models\\autogen\\results_gpt-4o-mini_20260407T215106Z.jsonl",
+        "n": 200,
+        "accuracy": 0.48,
+        "temporal": {
+          "before+after": 0.5194805194805194,
+          "after": 0.44594594594594594,
+          "before": 0.46938775510204084
+        },
+        "ctx_bucket": {
+          "short": 0.5074626865671642,
+          "medium": 0.582089552238806,
+          "long": 0.3484848484848485
+        },
+        "modal": {
+          "modal": 0.45789473684210524,
+          "non-modal": 0.9
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "confusion_matrix": {
+          "tp": 0,
+          "fp": 104,
+          "tn": 96,
+          "fn": 0
+        }
+      },
+      "autoprune": {
+        "label": "AutoPrune (MAS)",
+        "file": "analysis_runs\\proc_no_across_models\\autoprune\\autoprune_results_gpt-4o-mini_20260407T222608Z.jsonl",
+        "n": 200,
+        "accuracy": 0.465,
+        "temporal": {
+          "before+after": 0.4675324675324675,
+          "after": 0.40540540540540543,
+          "before": 0.5510204081632653
+        },
+        "ctx_bucket": {
+          "short": 0.4925373134328358,
+          "medium": 0.5373134328358209,
+          "long": 0.36363636363636365
+        },
+        "modal": {
+          "modal": 0.4421052631578947,
+          "non-modal": 0.9
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "confusion_matrix": {
+          "tp": 0,
+          "fp": 107,
+          "tn": 93,
+          "fn": 0
+        }
+      },
+      "gmemory": {
+        "label": "G-Memory (MAS)",
+        "file": "analysis_runs\\proc_no_across_models\\gmemory\\gmemory_results_gpt-4o-mini_20260407T230143Z.jsonl",
+        "n": 200,
+        "accuracy": 0.805,
+        "temporal": {
+          "before+after": 0.8571428571428571,
+          "after": 0.7297297297297297,
+          "before": 0.8367346938775511
+        },
+        "ctx_bucket": {
+          "short": 0.835820895522388,
+          "medium": 0.7611940298507462,
+          "long": 0.8181818181818182
+        },
+        "modal": {
+          "modal": 0.7947368421052632,
+          "non-modal": 1.0
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "confusion_matrix": {
+          "tp": 0,
+          "fp": 39,
+          "tn": 161,
+          "fn": 0
+        }
+      }
+    },
+    "best": {
+      "sub": "gmemory",
+      "accuracy": 0.805
+    }
+  },
+  "AttackSeq-Procedure-Yes": {
+    "n": 200,
+    "ctx_tertiles": {
+      "t1": 312,
+      "t2": 403
+    },
+    "competitors": {
+      "baseline": {
+        "label": "Single LLM",
+        "file": "analysis_runs\\proc_yes_across_models\\baseline\\predictions_gpt-4o-mini_20260407T231324Z.jsonl",
+        "n": 200,
+        "accuracy": 0.87,
+        "temporal": {
+          "before+after": 0.8048780487804879,
+          "before": 0.8958333333333334,
+          "after": 0.9285714285714286
+        },
+        "ctx_bucket": {
+          "short": 0.855072463768116,
+          "medium": 0.8484848484848485,
+          "long": 0.9076923076923077
+        },
+        "modal": {
+          "modal": 0.8686868686868687,
+          "non-modal": 1.0
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "confusion_matrix": {
+          "tp": 174,
+          "fp": 0,
+          "tn": 0,
+          "fn": 26
+        }
+      },
+      "rag": {
+        "label": "+ ATT&CK retrieval",
+        "file": "analysis_runs\\proc_yes_across_models\\rag\\predictions_gpt-4o-mini_20260407T231743Z.jsonl",
+        "n": 200,
+        "accuracy": 0.855,
+        "temporal": {
+          "before+after": 0.7926829268292683,
+          "before": 0.8958333333333334,
+          "after": 0.9
+        },
+        "ctx_bucket": {
+          "short": 0.8260869565217391,
+          "medium": 0.8484848484848485,
+          "long": 0.8923076923076924
+        },
+        "modal": {
+          "modal": 0.8535353535353535,
+          "non-modal": 1.0
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "confusion_matrix": {
+          "tp": 171,
+          "fp": 0,
+          "tn": 0,
+          "fn": 29
+        }
+      },
+      "hybrid": {
+        "label": "Hybrid escalation",
+        "file": "analysis_runs\\proc_yes_across_models\\hybrid\\predictions_gpt-4o-mini_20260407T233342Z.jsonl",
+        "n": 200,
+        "accuracy": 0.86,
+        "temporal": {
+          "before+after": 0.7926829268292683,
+          "before": 0.9166666666666666,
+          "after": 0.9
+        },
+        "ctx_bucket": {
+          "short": 0.8260869565217391,
+          "medium": 0.8636363636363636,
+          "long": 0.8923076923076924
+        },
+        "modal": {
+          "modal": 0.8585858585858586,
+          "non-modal": 1.0
+        },
+        "escalated": 9,
+        "escalated_accuracy": 0.2222222222222222,
+        "confusion_matrix": {
+          "tp": 172,
+          "fp": 0,
+          "tn": 0,
+          "fn": 28
+        }
+      },
+      "autogen": {
+        "label": "AutoGen (MAS)",
+        "file": "analysis_runs\\proc_yes_across_models\\autogen\\results_gpt-4o-mini_20260408T001807Z.jsonl",
+        "n": 200,
+        "accuracy": 0.915,
+        "temporal": {
+          "before+after": 0.8414634146341463,
+          "before": 1.0,
+          "after": 0.9428571428571428
+        },
+        "ctx_bucket": {
+          "short": 0.8840579710144928,
+          "medium": 0.9545454545454546,
+          "long": 0.9076923076923077
+        },
+        "modal": {
+          "modal": 0.9141414141414141,
+          "non-modal": 1.0
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "confusion_matrix": {
+          "tp": 183,
+          "fp": 0,
+          "tn": 0,
+          "fn": 17
+        }
+      },
+      "autoprune": {
+        "label": "AutoPrune (MAS)",
+        "file": "analysis_runs\\proc_yes_across_models\\autoprune\\autoprune_results_gpt-4o-mini_20260408T005409Z.jsonl",
+        "n": 200,
+        "accuracy": 0.895,
+        "temporal": {
+          "before+after": 0.8536585365853658,
+          "before": 0.8958333333333334,
+          "after": 0.9428571428571428
+        },
+        "ctx_bucket": {
+          "short": 0.8695652173913043,
+          "medium": 0.8939393939393939,
+          "long": 0.9230769230769231
+        },
+        "modal": {
+          "modal": 0.8939393939393939,
+          "non-modal": 1.0
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "confusion_matrix": {
+          "tp": 179,
+          "fp": 0,
+          "tn": 0,
+          "fn": 21
+        }
+      },
+      "gmemory": {
+        "label": "G-Memory (MAS)",
+        "file": "analysis_runs\\proc_yes_across_models\\gmemory\\gmemory_results_gpt-4o-mini_20260408T013058Z.jsonl",
+        "n": 200,
+        "accuracy": 0.945,
+        "temporal": {
+          "before+after": 0.926829268292683,
+          "before": 0.9375,
+          "after": 0.9714285714285714
+        },
+        "ctx_bucket": {
+          "short": 0.9420289855072463,
+          "medium": 0.9393939393939394,
+          "long": 0.9538461538461539
+        },
+        "modal": {
+          "modal": 0.9444444444444444,
+          "non-modal": 1.0
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "confusion_matrix": {
+          "tp": 189,
+          "fp": 0,
+          "tn": 0,
+          "fn": 11
+        }
+      }
+    },
+    "best": {
+      "sub": "gmemory",
+      "accuracy": 0.945
+    }
+  },
+  "AttackSeq-Tactic": {
+    "n": 200,
+    "ctx_tertiles": {
+      "t1": 283,
+      "t2": 384
+    },
+    "competitors": {
+      "rag": {
+        "label": "+ ATT&CK retrieval",
+        "file": "analysis_runs\\tactic_across_models\\rag\\predictions_gpt-4o-mini_20260408T070704Z.jsonl",
+        "n": 200,
+        "accuracy": 0.75,
+        "temporal": {
+          "before+after": 0.7407407407407407,
+          "before": 0.7254901960784313,
+          "after": 0.7727272727272727,
+          "none": 1.0
+        },
+        "ctx_bucket": {
+          "short": 0.7611940298507462,
+          "medium": 0.7761194029850746,
+          "long": 0.7121212121212122
+        },
+        "modal": {
+          "modal": 0.75
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "top_confusions": [
+          {
+            "gt": "Defense Evasion",
+            "pred": "Execution",
+            "count": 5
+          },
+          {
+            "gt": "Execution",
+            "pred": "Initial Access",
+            "count": 5
+          },
+          {
+            "gt": "Defense Evasion",
+            "pred": "Command and Control",
+            "count": 3
+          },
+          {
+            "gt": "Defense Evasion",
+            "pred": "Persistence",
+            "count": 2
+          },
+          {
+            "gt": "Credential Access",
+            "pred": "Initial Access",
+            "count": 2
+          }
+        ]
+      },
+      "hybrid": {
+        "label": "Hybrid escalation",
+        "file": "analysis_runs\\tactic_across_models\\hybrid\\predictions_gpt-4o-mini_20260408T070156Z.jsonl",
+        "n": 200,
+        "accuracy": 0.765,
+        "temporal": {
+          "before+after": 0.7530864197530864,
+          "before": 0.6862745098039216,
+          "after": 0.8333333333333334,
+          "none": 1.0
+        },
+        "ctx_bucket": {
+          "short": 0.746268656716418,
+          "medium": 0.8208955223880597,
+          "long": 0.7272727272727273
+        },
+        "modal": {
+          "modal": 0.765
+        },
+        "escalated": 14,
+        "escalated_accuracy": 0.5714285714285714,
+        "top_confusions": [
+          {
+            "gt": "Defense Evasion",
+            "pred": "Execution",
+            "count": 5
+          },
+          {
+            "gt": "Execution",
+            "pred": "Initial Access",
+            "count": 5
+          },
+          {
+            "gt": "Defense Evasion",
+            "pred": "Persistence",
+            "count": 3
+          },
+          {
+            "gt": "Privilege Escalation",
+            "pred": "Execution",
+            "count": 2
+          },
+          {
+            "gt": "Defense Evasion",
+            "pred": "Initial Access",
+            "count": 2
+          }
+        ]
+      },
+      "autogen": {
+        "label": "AutoGen (MAS)",
+        "file": "analysis_runs\\tactic_across_models\\autogen\\results_gpt-4o-mini_20260408T022127Z.jsonl",
+        "n": 200,
+        "accuracy": 0.72,
+        "temporal": {
+          "before+after": 0.691358024691358,
+          "before": 0.6862745098039216,
+          "after": 0.7727272727272727,
+          "none": 1.0
+        },
+        "ctx_bucket": {
+          "short": 0.7761194029850746,
+          "medium": 0.7313432835820896,
+          "long": 0.6515151515151515
+        },
+        "modal": {
+          "modal": 0.72
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "top_confusions": [
+          {
+            "gt": "Initial Access",
+            "pred": "Execution",
+            "count": 5
+          },
+          {
+            "gt": "Execution",
+            "pred": "Initial Access",
+            "count": 5
+          },
+          {
+            "gt": "Defense Evasion",
+            "pred": "Execution",
+            "count": 3
+          },
+          {
+            "gt": "Exfiltration",
+            "pred": "Command and Control",
+            "count": 3
+          },
+          {
+            "gt": "Credential Access",
+            "pred": "Defense Evasion",
+            "count": 2
+          }
+        ]
+      },
+      "autoprune": {
+        "label": "AutoPrune (MAS)",
+        "file": "analysis_runs\\tactic_across_models\\autoprune\\autoprune_results_gpt-4o-mini_20260408T025957Z.jsonl",
+        "n": 200,
+        "accuracy": 0.725,
+        "temporal": {
+          "before+after": 0.6666666666666666,
+          "before": 0.7647058823529411,
+          "after": 0.7575757575757576,
+          "none": 1.0
+        },
+        "ctx_bucket": {
+          "short": 0.7611940298507462,
+          "medium": 0.7611940298507462,
+          "long": 0.6515151515151515
+        },
+        "modal": {
+          "modal": 0.725
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "top_confusions": [
+          {
+            "gt": "Command and Control",
+            "pred": "Defense Evasion",
+            "count": 5
+          },
+          {
+            "gt": "Execution",
+            "pred": "Initial Access",
+            "count": 5
+          },
+          {
+            "gt": "Defense Evasion",
+            "pred": "Execution",
+            "count": 4
+          },
+          {
+            "gt": "Defense Evasion",
+            "pred": "Command and Control",
+            "count": 3
+          },
+          {
+            "gt": "Credential Access",
+            "pred": "Defense Evasion",
+            "count": 2
+          }
+        ]
+      },
+      "gmemory": {
+        "label": "G-Memory (MAS)",
+        "file": "analysis_runs\\tactic_across_models\\gmemory\\gmemory_results_gpt-4o-mini_20260408T035345Z.jsonl",
+        "n": 200,
+        "accuracy": 0.71,
+        "temporal": {
+          "before+after": 0.6790123456790124,
+          "before": 0.7254901960784313,
+          "after": 0.7424242424242424,
+          "none": 0.5
+        },
+        "ctx_bucket": {
+          "short": 0.7910447761194029,
+          "medium": 0.6865671641791045,
+          "long": 0.6515151515151515
+        },
+        "modal": {
+          "modal": 0.71
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "top_confusions": [
+          {
+            "gt": "Execution",
+            "pred": "Initial Access",
+            "count": 5
+          },
+          {
+            "gt": "Defense Evasion",
+            "pred": "Execution",
+            "count": 3
+          },
+          {
+            "gt": "Persistence",
+            "pred": "Execution",
+            "count": 3
+          },
+          {
+            "gt": "Reconnaissance",
+            "pred": "Initial Access",
+            "count": 3
+          },
+          {
+            "gt": "Initial Access",
+            "pred": "Execution",
+            "count": 2
+          }
+        ]
+      }
+    },
+    "best": {
+      "sub": "hybrid",
+      "accuracy": 0.765
+    }
+  },
+  "AttackSeq-Technique": {
+    "n": 200,
+    "ctx_tertiles": {
+      "t1": 297,
+      "t2": 395
+    },
+    "competitors": {
+      "baseline": {
+        "label": "Single LLM",
+        "file": "analysis_runs\\technique_across_models\\baseline\\predictions_gpt-4o-mini_20260408T070721Z.jsonl",
+        "n": 200,
+        "accuracy": 0.73,
+        "temporal": {
+          "before+after": 0.7014925373134329,
+          "before": 0.7241379310344828,
+          "after": 0.7464788732394366,
+          "none": 1.0
+        },
+        "ctx_bucket": {
+          "short": 0.7058823529411765,
+          "medium": 0.7272727272727273,
+          "long": 0.7575757575757576
+        },
+        "modal": {
+          "modal": 0.73
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "top_confusions": [
+          {
+            "gt": "T1129-Shared Modules",
+            "pred": "T1559.001-Component Object Model",
+            "count": 2
+          },
+          {
+            "gt": "T1027-Obfuscated Files or Information",
+            "pred": "T1566-Phishing",
+            "count": 2
+          },
+          {
+            "gt": "T1566-Phishing",
+            "pred": "T1566.002-Spearphishing Link",
+            "count": 2
+          },
+          {
+            "gt": "T1069-Permission Groups Discovery",
+            "pred": "T1550-Use Alternate Authentication Material",
+            "count": 1
+          },
+          {
+            "gt": "T1566-Phishing",
+            "pred": "T1036-Masquerading",
+            "count": 1
+          }
+        ]
+      },
+      "rag": {
+        "label": "+ ATT&CK retrieval",
+        "file": "analysis_runs\\technique_across_models\\rag\\predictions_gpt-4o-mini_20260408T064508Z.jsonl",
+        "n": 200,
+        "accuracy": 0.775,
+        "temporal": {
+          "before+after": 0.7164179104477612,
+          "before": 0.7586206896551724,
+          "after": 0.8309859154929577,
+          "none": 1.0
+        },
+        "ctx_bucket": {
+          "short": 0.75,
+          "medium": 0.7878787878787878,
+          "long": 0.7878787878787878
+        },
+        "modal": {
+          "modal": 0.775
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "top_confusions": [
+          {
+            "gt": "T1129-Shared Modules",
+            "pred": "T1559.001-Component Object Model",
+            "count": 2
+          },
+          {
+            "gt": "T1027-Obfuscated Files or Information",
+            "pred": "T1566-Phishing",
+            "count": 2
+          },
+          {
+            "gt": "T1566-Phishing",
+            "pred": "T1566.002-Spearphishing Link",
+            "count": 2
+          },
+          {
+            "gt": "T1069-Permission Groups Discovery",
+            "pred": "T1550-Use Alternate Authentication Material",
+            "count": 1
+          },
+          {
+            "gt": "T1573-Encrypted Channel",
+            "pred": "T1560-Archive Collected Data",
+            "count": 1
+          }
+        ]
+      },
+      "hybrid": {
+        "label": "Hybrid escalation",
+        "file": "analysis_runs\\technique_across_models\\hybrid\\predictions_gpt-4o-mini_20260408T070041Z.jsonl",
+        "n": 200,
+        "accuracy": 0.755,
+        "temporal": {
+          "before+after": 0.7313432835820896,
+          "before": 0.7586206896551724,
+          "after": 0.7605633802816901,
+          "none": 1.0
+        },
+        "ctx_bucket": {
+          "short": 0.75,
+          "medium": 0.7424242424242424,
+          "long": 0.7727272727272727
+        },
+        "modal": {
+          "modal": 0.755
+        },
+        "escalated": 11,
+        "escalated_accuracy": 0.6363636363636364,
+        "top_confusions": [
+          {
+            "gt": "T1129-Shared Modules",
+            "pred": "T1559.001-Component Object Model",
+            "count": 2
+          },
+          {
+            "gt": "T1027-Obfuscated Files or Information",
+            "pred": "T1566-Phishing",
+            "count": 2
+          },
+          {
+            "gt": "T1566-Phishing",
+            "pred": "T1566.002-Spearphishing Link",
+            "count": 2
+          },
+          {
+            "gt": "T1069-Permission Groups Discovery",
+            "pred": "T1550-Use Alternate Authentication Material",
+            "count": 1
+          },
+          {
+            "gt": "T1210-Exploitation of Remote Services",
+            "pred": "T1078.003-Local Accounts",
+            "count": 1
+          }
+        ]
+      },
+      "autogen": {
+        "label": "AutoGen (MAS)",
+        "file": "analysis_runs\\technique_across_models\\autogen\\results_gpt-4o-mini_20260408T045523Z.jsonl",
+        "n": 200,
+        "accuracy": 0.745,
+        "temporal": {
+          "before+after": 0.7014925373134329,
+          "before": 0.7413793103448276,
+          "after": 0.7746478873239436,
+          "none": 1.0
+        },
+        "ctx_bucket": {
+          "short": 0.7058823529411765,
+          "medium": 0.7272727272727273,
+          "long": 0.803030303030303
+        },
+        "modal": {
+          "modal": 0.745
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "top_confusions": [
+          {
+            "gt": "T1129-Shared Modules",
+            "pred": "T1559.001-Component Object Model",
+            "count": 2
+          },
+          {
+            "gt": "T1027-Obfuscated Files or Information",
+            "pred": "T1566-Phishing",
+            "count": 2
+          },
+          {
+            "gt": "T1069-Permission Groups Discovery",
+            "pred": "T1550-Use Alternate Authentication Material",
+            "count": 1
+          },
+          {
+            "gt": "T1566-Phishing",
+            "pred": "T1036-Masquerading",
+            "count": 1
+          },
+          {
+            "gt": "T1111-Multi-Factor Authentication Interception",
+            "pred": "T1564-Hide Artifacts",
+            "count": 1
+          }
+        ]
+      },
+      "autoprune": {
+        "label": "AutoPrune (MAS)",
+        "file": "analysis_runs\\technique_across_models\\autoprune\\autoprune_results_gpt-4o-mini_20260408T053726Z.jsonl",
+        "n": 200,
+        "accuracy": 0.765,
+        "temporal": {
+          "before+after": 0.7014925373134329,
+          "before": 0.7758620689655172,
+          "after": 0.8028169014084507,
+          "none": 1.0
+        },
+        "ctx_bucket": {
+          "short": 0.7352941176470589,
+          "medium": 0.7727272727272727,
+          "long": 0.7878787878787878
+        },
+        "modal": {
+          "modal": 0.765
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "top_confusions": [
+          {
+            "gt": "T1129-Shared Modules",
+            "pred": "T1559.001-Component Object Model",
+            "count": 2
+          },
+          {
+            "gt": "T1027-Obfuscated Files or Information",
+            "pred": "T1566-Phishing",
+            "count": 2
+          },
+          {
+            "gt": "T1069-Permission Groups Discovery",
+            "pred": "T1550-Use Alternate Authentication Material",
+            "count": 1
+          },
+          {
+            "gt": "T1566-Phishing",
+            "pred": "T1036-Masquerading",
+            "count": 1
+          },
+          {
+            "gt": "T1210-Exploitation of Remote Services",
+            "pred": "T1078.003-Local Accounts",
+            "count": 1
+          }
+        ]
+      },
+      "gmemory": {
+        "label": "G-Memory (MAS)",
+        "file": "analysis_runs\\technique_across_models\\gmemory\\gmemory_results_gpt-4o-mini_20260408T063022Z.jsonl",
+        "n": 200,
+        "accuracy": 0.745,
+        "temporal": {
+          "before+after": 0.7164179104477612,
+          "before": 0.7413793103448276,
+          "after": 0.7605633802816901,
+          "none": 1.0
+        },
+        "ctx_bucket": {
+          "short": 0.75,
+          "medium": 0.7272727272727273,
+          "long": 0.7575757575757576
+        },
+        "modal": {
+          "modal": 0.745
+        },
+        "escalated": 0,
+        "escalated_accuracy": null,
+        "top_confusions": [
+          {
+            "gt": "T1027-Obfuscated Files or Information",
+            "pred": "T1566-Phishing",
+            "count": 2
+          },
+          {
+            "gt": "T1069-Permission Groups Discovery",
+            "pred": "T1550-Use Alternate Authentication Material",
+            "count": 1
+          },
+          {
+            "gt": "T1566-Phishing",
+            "pred": "T1036-Masquerading",
+            "count": 1
+          },
+          {
+            "gt": "T1129-Shared Modules",
+            "pred": "T1071-Application Layer Protocol",
+            "count": 1
+          },
+          {
+            "gt": "T1129-Shared Modules",
+            "pred": "T1559.001-Component Object Model",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "best": {
+      "sub": "rag",
+      "accuracy": 0.775
+    }
+  }
+}

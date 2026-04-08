@@ -1,0 +1,43 @@
+{
+  "model": "gpt-4o-mini",
+  "dataset_csv": "D:\\nus\\year4\\semester2\\FYP\\product\\analysis_runs\\diverse_200\\AttackSeq-Technique.csv",
+  "mode": "gmemory",
+  "max_questions": 200,
+  "autogen_rounds": 8,
+  "gmemory": {
+    "success_topk": 2,
+    "failed_topk": 1,
+    "min_similarity": 0.08,
+    "load_existing": false,
+    "store_path": "D:\\nus\\year4\\semester2\\FYP\\product\\analysis_runs\\technique_across_models\\gmemory_store.jsonl"
+  },
+  "runtime_seconds": 3164.026,
+  "pricing": {
+    "source": "builtin:gpt-4o-mini",
+    "input_cost_per_1m": 0.15,
+    "output_cost_per_1m": 0.6
+  },
+  "metrics": {
+    "gmemory": {
+      "total_answered": 200,
+      "correct": 149,
+      "accuracy": 0.745,
+      "errors": 0,
+      "runtime_seconds": 2990.521,
+      "prompt_tokens": 1712395,
+      "completion_tokens": 103427,
+      "total_tokens": 1815822,
+      "estimated_cost_usd": 0.31891545,
+      "avg_num_messages": 4.045,
+      "avg_retrieved_success": 1.98,
+      "avg_retrieved_failed": 0.99,
+      "memory_store_path": "D:\\nus\\year4\\semester2\\FYP\\product\\analysis_runs\\technique_across_models\\gmemory_store.jsonl",
+      "memory_records": 200
+    }
+  },
+  "deltas": {},
+  "artifacts": {
+    "results_jsonl": "D:\\nus\\year4\\semester2\\FYP\\product\\analysis_runs\\technique_across_models\\gmemory\\gmemory_results_gpt-4o-mini_20260408T063022Z.jsonl",
+    "summary_json": "D:\\nus\\year4\\semester2\\FYP\\product\\analysis_runs\\technique_across_models\\gmemory\\gmemory_summary_gpt-4o-mini_20260408T063022Z.json"
+  }
+}

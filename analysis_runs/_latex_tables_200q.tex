@@ -1,0 +1,83 @@
+% --- AttackSeq-Procedure-No ---
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Accuracy & Runtime (s) & Total Tokens & Est. Cost (USD) & Escalated \\
+\midrule
+Single LLM & 54.0\% & 144.047 & 142,174 & 0.02169 & 0 \\
++ ATT\&CK retrieval & 57.5\% & 136.538 & 180,472 & 0.02743 & 0 \\
+Hybrid escalation & 56.5\% & 753.193 & 594,328 & 0.12217 & 17 \\
+Hybrid + retrieval & 58.0\% & 870.169 & 754,796 & 0.16282 & 21 \\
+AutoGen (MAS) & 48.0\% & 2,431.793 & 1,607,329 & 0.27018 & - \\
+AutoPrune (MAS) & 46.5\% & 1,852.624 & 1,060,056 & 0.18061 & - \\
+G-Memory (MAS) & 80.5\% & 2,037.668 & 1,526,997 & 0.25264 & - \\
+\bottomrule
+\end{tabular}%
+}
+\caption{AttackSeq-Procedure-No (200-question slice): operational comparison across competitors.}
+\label{tab:attackseq_procedure_no_ops_200}
+\end{table}
+
+% --- AttackSeq-Procedure-Yes ---
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Accuracy & Runtime (s) & Total Tokens & Est. Cost (USD) & Escalated \\
+\midrule
+Single LLM & 87.0\% & 234.889 & 142,020 & 0.02166 & 0 \\
++ ATT\&CK retrieval & 85.5\% & 235.909 & 180,188 & 0.02739 & 0 \\
+Hybrid escalation & 86.0\% & 877.197 & 590,274 & 0.11309 & 9 \\
+AutoGen (MAS) & 91.5\% & 2,535.067 & 1,651,817 & 0.27548 & - \\
+AutoPrune (MAS) & 89.5\% & 1,748.046 & 1,056,421 & 0.18005 & - \\
+G-Memory (MAS) & 94.5\% & 1,956.245 & 1,625,266 & 0.26819 & - \\
+\bottomrule
+\end{tabular}%
+}
+\caption{AttackSeq-Procedure-Yes (200-question slice): operational comparison across competitors.}
+\label{tab:attackseq_procedure_yes_ops_200}
+\end{table}
+
+% --- AttackSeq-Tactic ---
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Accuracy & Runtime (s) & Total Tokens & Est. Cost (USD) & Escalated \\
+\midrule
++ ATT\&CK retrieval & 75.0\% & 261.207 & 171,676 & 0.02611 & 0 \\
+Hybrid escalation & 76.5\% & 916.422 & 560,650 & 0.11631 & 14 \\
+AutoGen (MAS) & 72.0\% & 2,462.981 & 1,448,852 & 0.25118 & - \\
+AutoPrune (MAS) & 72.5\% & 1,801.282 & 990,121 & 0.16966 & - \\
+G-Memory (MAS) & 71.0\% & 2,427.711 & 1,666,886 & 0.28442 & - \\
+\bottomrule
+\end{tabular}%
+}
+\caption{AttackSeq-Tactic (200-question slice): operational comparison across competitors.}
+\label{tab:attackseq_tactic_ops_200}
+\end{table}
+
+% --- AttackSeq-Technique ---
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Accuracy & Runtime (s) & Total Tokens & Est. Cost (USD) & Escalated \\
+\midrule
+Single LLM & 73.0\% & 269.564 & 140,695 & 0.02146 & 0 \\
++ ATT\&CK retrieval & 77.5\% & 251.822 & 177,364 & 0.02696 & 0 \\
+Hybrid escalation & 75.5\% & 906.573 & 586,546 & 0.11249 & 11 \\
+AutoGen (MAS) & 74.5\% & 2,910.065 & 1,582,282 & 0.28254 & - \\
+AutoPrune (MAS) & 76.5\% & 1,941.588 & 1,064,070 & 0.18458 & - \\
+G-Memory (MAS) & 74.5\% & 2,990.521 & 1,815,822 & 0.31892 & - \\
+\bottomrule
+\end{tabular}%
+}
+\caption{AttackSeq-Technique (200-question slice): operational comparison across competitors.}
+\label{tab:attackseq_technique_ops_200}
+\end{table}

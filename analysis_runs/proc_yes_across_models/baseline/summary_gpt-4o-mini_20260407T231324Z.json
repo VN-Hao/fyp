@@ -1,0 +1,80 @@
+{
+  "model": "gpt-4o-mini",
+  "cascade": {
+    "enabled": false,
+    "cascade_model": "gpt-4o",
+    "max_escalation_rate": 0.25,
+    "min_confidence": 70.0,
+    "min_margin": 8.0,
+    "hard_confidence": 55.0,
+    "hard_margin": 5.0,
+    "self_consistency_votes": 3,
+    "self_consistency_temperature": 0.2,
+    "min_vote_share": 0.67,
+    "confusion_threshold": 0.45,
+    "enable_verifier": false,
+    "diagnostic_max_tokens": 220
+  },
+  "mitre_kb": {
+    "enabled": false,
+    "path": null,
+    "top_k": null,
+    "max_chars": null
+  },
+  "dataset_dir": "D:\\nus\\year4\\semester2\\FYP\\product\\analysis_runs\\diverse_200",
+  "tasks": [
+    "AttackSeq-Procedure-Yes"
+  ],
+  "max_questions_per_task": 200,
+  "runtime": {
+    "seconds": 234.889,
+    "formatted": "00:03:55"
+  },
+  "token_usage": {
+    "prompt_tokens": 141220,
+    "completion_tokens": 800,
+    "total_tokens": 142020,
+    "primary_prompt_tokens": 141220,
+    "primary_completion_tokens": 800,
+    "cascade_prompt_tokens": 0,
+    "cascade_completion_tokens": 0
+  },
+  "cost": {
+    "estimated_cost_usd": 0.021663,
+    "input_cost_per_1m": 0.15,
+    "output_cost_per_1m": 0.6,
+    "pricing_source": "builtin:gpt-4o-mini",
+    "cascade_input_cost_per_1m": null,
+    "cascade_output_cost_per_1m": null,
+    "cascade_pricing_source": null
+  },
+  "overall": {
+    "total": 200,
+    "correct": 174,
+    "accuracy": 0.87,
+    "macro_accuracy": 0.87,
+    "escalated": 0,
+    "confusion_hits": 0
+  },
+  "per_task": {
+    "AttackSeq-Procedure-Yes": {
+      "total": 200,
+      "correct": 174,
+      "accuracy": 0.87,
+      "prompt_tokens": 141220,
+      "completion_tokens": 800,
+      "total_tokens": 142020,
+      "estimated_cost_usd": 0.021663,
+      "escalated": 0,
+      "confusion_hits": 0,
+      "primary_prompt_tokens": 141220,
+      "primary_completion_tokens": 800,
+      "cascade_prompt_tokens": 0,
+      "cascade_completion_tokens": 0
+    }
+  },
+  "artifacts": {
+    "predictions_jsonl": "D:\\nus\\year4\\semester2\\FYP\\product\\analysis_runs\\proc_yes_across_models\\baseline\\predictions_gpt-4o-mini_20260407T231324Z.jsonl",
+    "summary_json": "D:\\nus\\year4\\semester2\\FYP\\product\\analysis_runs\\proc_yes_across_models\\baseline\\summary_gpt-4o-mini_20260407T231324Z.json"
+  }
+}

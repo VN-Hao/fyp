@@ -1,0 +1,80 @@
+{
+  "model": "gpt-4o-mini",
+  "cascade": {
+    "enabled": true,
+    "cascade_model": "gpt-4o",
+    "max_escalation_rate": 0.25,
+    "min_confidence": 90.0,
+    "min_margin": 20.0,
+    "hard_confidence": 80.0,
+    "hard_margin": 10.0,
+    "self_consistency_votes": 3,
+    "self_consistency_temperature": 0.2,
+    "min_vote_share": 1.0,
+    "confusion_threshold": 0.35,
+    "enable_verifier": true,
+    "diagnostic_max_tokens": 220
+  },
+  "mitre_kb": {
+    "enabled": false,
+    "path": null,
+    "top_k": null,
+    "max_chars": null
+  },
+  "dataset_dir": "D:\\nus\\year4\\semester2\\FYP\\product\\analysis_runs\\diverse_200",
+  "tasks": [
+    "AttackSeq-Technique"
+  ],
+  "max_questions_per_task": 200,
+  "runtime": {
+    "seconds": 906.573,
+    "formatted": "00:15:07"
+  },
+  "token_usage": {
+    "prompt_tokens": 570575,
+    "completion_tokens": 15971,
+    "total_tokens": 586546,
+    "primary_prompt_tokens": 563380,
+    "primary_completion_tokens": 15927,
+    "cascade_prompt_tokens": 7195,
+    "cascade_completion_tokens": 44
+  },
+  "cost": {
+    "estimated_cost_usd": 0.1124907,
+    "input_cost_per_1m": 0.15,
+    "output_cost_per_1m": 0.6,
+    "pricing_source": "builtin:gpt-4o-mini",
+    "cascade_input_cost_per_1m": 2.5,
+    "cascade_output_cost_per_1m": 10.0,
+    "cascade_pricing_source": "builtin:gpt-4o"
+  },
+  "overall": {
+    "total": 200,
+    "correct": 151,
+    "accuracy": 0.755,
+    "macro_accuracy": 0.755,
+    "escalated": 11,
+    "confusion_hits": 11
+  },
+  "per_task": {
+    "AttackSeq-Technique": {
+      "total": 200,
+      "correct": 151,
+      "accuracy": 0.755,
+      "prompt_tokens": 570575,
+      "completion_tokens": 15971,
+      "total_tokens": 586546,
+      "estimated_cost_usd": 0.1124907,
+      "escalated": 11,
+      "confusion_hits": 11,
+      "primary_prompt_tokens": 563380,
+      "primary_completion_tokens": 15927,
+      "cascade_prompt_tokens": 7195,
+      "cascade_completion_tokens": 44
+    }
+  },
+  "artifacts": {
+    "predictions_jsonl": "D:\\nus\\year4\\semester2\\FYP\\product\\analysis_runs\\technique_across_models\\hybrid\\predictions_gpt-4o-mini_20260408T070041Z.jsonl",
+    "summary_json": "D:\\nus\\year4\\semester2\\FYP\\product\\analysis_runs\\technique_across_models\\hybrid\\summary_gpt-4o-mini_20260408T070041Z.json"
+  }
+}
